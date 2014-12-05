@@ -14,8 +14,9 @@ class FoxyStripeTemplatesSiteConfig extends DataExtension {
 	);
 	
 	public function updateCMSFields(FieldList $fields) {
-		$fields->addFieldsToTab('Root.FoxyStripe.Templates', array(
-            HeaderField::create('CacheableTemplates', 'Cacheable Templates', 3),
+		$fields->addFieldsToTab('Root.Templates', array(
+            HeaderField::create('CacheableTemplates', 'FoxyStripe Cacheable Templates', 3),
+            LiteralField::create('TemplateDescip', '<p>Use your Theme to generate templates for the FoxyCart checkout.</p>'),
             ToggleCompositeField::create('Cart', 'Cached Cart Page Settings',
                 array(
                     CheckboxField::create('CartPage')

@@ -2,5 +2,5 @@
 Name: foxystripe-cacheable-templates
 ---
 SiteConfig:
-  Extensions:
+  extensions:
     - FoxyStripeTemplatesSiteConfig
