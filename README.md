@@ -1,4 +1,4 @@
-#### Cacheable Templates
+#### FoxyStripe Cacheable Templates
 
 Cacheable templates allow you to customize the design of your checkout using your SilverStripe theme. We've included Simple theme templates for the following:
 
@@ -9,7 +9,7 @@ Cacheable templates allow you to customize the design of your checkout using you
 
 To enable Cacheable Templates for FoxyCart in FoxyStripe:
 
-1. In CMS > Settings > FoxyStripe:
+1. In CMS > Settings > Templates:
 	*	Click `Cached Cart Page Settings`
 	*	Click `Enable link to cache cart page template`
 	*	Copy `Cart Cache Link` to your clipboard - `https://myfoxystripestore.com/generateCache/cart`
